@@ -25,6 +25,7 @@ RUN yum install -y unzip && \
 
 # Expose port 2000 on udp
 EXPOSE 2000/udp
+EXPOSE 2000/tcp
 
 ENTRYPOINT ["/usr/bin/xray"]
 
